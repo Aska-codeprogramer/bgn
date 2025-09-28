@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Badan Gizi Nasional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f3f4f6;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-box {
+      background: #ffffff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .login-box h2 {
+      margin-bottom: 0.5rem;
+      font-size: 24px;
+      font-weight: 600;
+      color: #111827;
+      text-align: center;
+    }
+
+    .login-box p {
+      margin-bottom: 2rem;
+      color: #6b7280;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .input-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .input-group label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 0.5rem;
+      color: #374151;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: border-color 0.3s;
+    }
+
+    .input-group input:focus {
+      border-color: #6366f1;
+      outline: none;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .options a {
+      color: #6366f1;
+      text-decoration: none;
+    }
+
+    .options a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #6366f1;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #4f46e5;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .footer a {
+      color: #6366f1;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>Selamat Datang</h2>
+    <p>Silakan masuk ke akun Anda</p>
+    <form>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="gmail-anda@email.com" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Kata Sandi</label>
+        <input type="password" id="password" placeholder="********" required>
+      </div>
+      <div class="options">
+        <a href="#">Lupa sandi?</a>
+      </div>
+      <button type="submit"><a href="index1.html" style="text-decoration: none; color: white;">Masuk</a></button>
+      <div class="footer">
+        <p>Belum punya akun? <a href="#">Daftar</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

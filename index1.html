@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badan Gizi Nasional</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="icon" href="icon/favicon.ico" />
+    <link rel="stylesheet" href="style1.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: #999999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar awal -->
+    <nav class="navbar bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand text-navbar-bgn" href="#">BADAN GIZI NASIONAL</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              BADAN GIZI NASIONAL
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#tujuan">Tujuan</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar akhir -->
+
+    <!-- home awal -->
+    <div class="kotak" data-aos="fade-up" data-aos-duration="3000" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="isi-home">
+              <div class="text-bgn-home-text-p1">
+                <h1 class="p1">Badan gizi nasional</h1>
+              </div>
+              <div class="text-bgn-home-text-p2">
+                <h1 class="p2">
+                  Lembaga non-kementerian yang berkomitmen pada
+                </h1>
+              </div>
+              <div class="text-bgn-home-text-p3">
+                <h1 class="p3">Pemenuhan gizi masyarakat</h1>
+              </div>
+              <div class="text-bgn-home-text-p4">
+                <p class="p4">
+                  Badan Gizi Nasional merupakan inisiatif strategis pemerintah
+                  indonesia yang bertugas memastikan terpenuhinya gizi seluruh
+                  masyarakat. kami berfokus pada peningkatan kualitas hidup
+                  melalui program yang terstruktur dan berbasis data.
+                </p>
+              </div>
+              <div class="center">
+                <div class="button-daftar-bgn">
+                  <button type="button" class="button">
+                    <a href="" class="a-daftar" onclick="daftar()"
+                      >DAFTAR SEKARANG</a
+                    >
+                  </button>
+                </div>
+                <div class="cek-layanan">
+                  <a href="#layanan" class="text-cek-layanan">CEK LAYANAN</a>
+                </div>
+              </div>
+              <div class="img-bgn1">
+                <img
+                  src="img/img-bgn1.jpg"
+                  alt=""
+                  class="gambar-bgn1 img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- home akhir -->
+
+    <!-- layanan awal -->
+    <div class="container isi-text-layanan" id="layanan">
+      <h1 class="text-layanan">Layanan</h1>
+    </div>
+
+    <div class="center1" data-aos="fade-up" data-aos-duration="3000">
+      <div class="card layanan1" style="width: 18rem">
+        <img
+          src="img/layanan-bgn1.png"
+          class="card-img-top gambar-layanan1"
+          alt="..."
+        />
+        <div class="card-body text-mbg">
+          <a href="https://www.bgn.go.id/" type="_blank" class="a-mbg1"
+            ><p class="card-text">Program Makan Bergizi Gratis (MBG)</p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="center2" data-aos="fade-up" data-aos-duration="3000">
+      <div class="card layanan2" style="width: 18rem">
+        <img
+          src="img/layanan-bgn2.jpeg"
+          class="card-img-top gambar-layanan2"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">Satuan Pelayanan Pemenuhan Gizi (SPPG)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="center3" data-aos="fade-up" data-aos-duration="3000">
+      <div class="card layanan3" style="width: 18rem">
+        <img
+          src="img/layanan-bgn3.png"
+          class="card-img-top gambar-layanan3"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">Kemitraan (Mitra BGN)</p>
+        </div>
+      </div>
+    </div>
+    <!-- layanan akhir -->
+
+    <!-- row ke empat awal -->
+    <div class="pembungkus4 container-fluid" id="tujuan" data-aos="fade-up" data-aos-duration="3000">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box-whyme">
+            <div class="whyme keatas text-black">
+              <p class="p11 text-black">Status Gizi Baik</p>
+              <div>
+                <p class="p12">
+                  Mengupayakan agar setiap individu dalam generasi mendatang memiliki status gizi yang optimal sebagai modal kesehatan dan kecerdasan.
+                </p>
+              </div>
+              <div class="penjelasan lainnya">
+                <button class="penjelasan-button" onclick="ToggleInfo()">
+                  pelajari lebih lanjut
+                </button>
+                <p class="hidden" id="moreInfo">
+                  Status gizi baik adalah keadaan tubuh seseorang di mana asupan zat gizi (makanan dan minuman) sesuai dengan kebutuhan tubuhnya.
+                  Artinya, energi dan zat gizi yang masuk seimbang dengan yang dipakai tubuh untuk beraktivitas, tumbuh, dan memperbaiki jaringan.
+                </p>
+              </div>
+            </div>
+
+            <div class="whyme text-black">
+              <p class="p11 text-black">Morbiditas dan Mortalitas Rendah</p>
+              <div>
+                <p class="p12">
+                  Berkomitmen menurunkan angka kesakitan dan kematian, terutama pada ibu, bayi, dan anak-anak, melalui intervensi gizi yang tepat dan 
+                  berkelanjutan. Upaya ini memastikan generasi mendatang tumbuh sehat, produktif, dan memiliki kualitas hidup yang tinggi.
+                </p>
+              </div>
+            </div>
+
+            <div class="whyme text-black">
+              <p class="p11 text-black">Partisipasi Sekolah Tinggi</p>
+              <div>
+                <p class="p12">
+                  Menjamin bahwa anak-anak Indonesia dapat mengakses pendidikan dengan baik, didukung oleh gizi yang memadai.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row ke empat akhir -->
+
+    <!-- footer awal -->
+    <footer>
+      <div class="bagian-footer">
+        <div class="isi-footer">
+          <p class="text-footer">
+            © Copyright Badan Gizi Nasional 2025, All Rights Reserved under
+            coders
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer akhir -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
